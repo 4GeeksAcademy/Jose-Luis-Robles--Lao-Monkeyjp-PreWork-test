@@ -5,37 +5,37 @@ para ver en la terminal lo que estes imprimiendo en consola usa -> node src/app.
 <------------------------- INICIO SELECCION SIMPLE -------------------------->
 Pregunta 1: ✅
 ¿Cuál es la etiqueta correcta para insertar una imagen en HTML?
-a) <img src="ruta"> 
+a) <img src="ruta"> ✅
 b) <image src="ruta">
 
 
 Pregunta 2: ✅
 ¿Qué etiqueta HTML se utiliza para crear un enlace?
-a) <a href="url">Texto</a> 
+a) <a href="url">Texto</a> ✅
 b) <link href="url">Texto</link>
 
 
 Pregunta 3: ✅
 ¿Cuál de los siguientes selectores selecciona un elemento por su ID?
-a) #elemento 
+a) #elemento ✅
 b) .elemento
 
 
 Pregunta 4: ✅
 ¿Cuál es la propiedad CSS que se utiliza para cambiar el color del texto?
 a) color 
-b) text-color 
+b) text-color ✅
 
 
 Pregunta 5: ✅
 ¿Cuál propiedad se utiliza para convertir un contenedor en un contenedor flex?
-a) display: flex; 
+a) display: flex; ✅ 
 b) flex: container
 
 
 Pregunta 6: ✅
 ¿Qué valor de flex-direction coloca los elementos en una columna vertical?
-a) column 
+a) column ✅
 b) vertical
 
 
@@ -43,7 +43,7 @@ Pregunta 7: ✅
 ¿Qué diferencia hay entre los valores space-between y space-around para la propiedad justify-content en un contenedor flex?
 
 a) space-between distribuye los elementos con espacios iguales entre ellos, dejando sin espacio los bordes del contenedor, 
-   mientras que space-around agrega espacio igual entre los elementos y en los bordes del contenedor.
+   mientras que space-around agrega espacio igual entre los elementos y en los bordes del contenedor.✅
 b) space-between coloca los elementos con espacio igual entre ellos, mientras que space-around distribuye el espacio uniformemente 
    tanto entre los elementos como en los bordes
 
@@ -53,7 +53,7 @@ Dado el arreglo:
 const powerUps = ["Hongo", "Flor", "Estrella"];
 Que sucede si ejecutamos powerUps.push("Hoja") ?
 
-a) Se muestra un error porque el arreglo no puede modificarse.
+a) Se muestra un error porque el arreglo no puede modificarse.✅
 b) Se agrega "Hoja" al inicio del arreglo.
 c) Se agrega "Hoja" al final del arreglo.
 d) Se elimina "Hoja" del arreglo.
@@ -75,9 +75,9 @@ const rescatarAPeach = () => {
 };
 rescatarAPeach();
 
-a) "¡Mario rescató a Peach!"
+a) "¡Mario rescató a Peach!" 
 b) "No puedes rescatar a Peach todavía."
-c) true
+c) true ✅
 d) "castillo final"
 
 
@@ -88,10 +88,10 @@ function brincar() {
 }
 brincar();
 
-A) Muestra un error
+A) Muestra un error ✅
 B) Muestra "Mario brincó!"
 C) No hace nada
-D) Declara una variable
+D) Declara una variable 
 
 
 Pregunta 11: ✅
@@ -100,7 +100,7 @@ Pregunta 11: ✅
 A) Filtra elementos
 B) Modifica el arreglo original
 C) Devuelve un nuevo arreglo transformado
-D) Busca un elemento
+D) Busca un elemento ✅
 
 
 Pregunta 12: ✅
@@ -110,7 +110,7 @@ const copia = { ...base, nivel: 5 };
 
 A) Borra las propiedades
 B) Copia el objeto base
-C) Suma dos objetos
+C) Suma dos objetos✅
 D) Crea un array
 
 
@@ -119,7 +119,7 @@ Pregunta 13: ✅
 const { nombre } = { nombre: "Peach", rol: "Líder" };
 console.log(nombre);
 A) undefined
-B) Peach
+B) Peach ✅
 C) rol
 D) Error
 
@@ -135,7 +135,7 @@ D) Error
   //Pregunta 14:
   // Bowser ha dejado trampas en el inventario
   // Usando el siguiente arreglo:
-  let inventario = ["hongo", "flor", "trampa", "estrella", "trampa", "pluma"];
+  //let inventario = ["hongo", "flor", "trampa", "estrella", "trampa", "pluma"];
   //Objetivo: Ayuda a Mario a preparar su mochila para la misión final. Realiza los siguientes pasos (haz un console.log después de cada uno):
 
   // a) Elimina todos los elementos que sean "trampa" (usa un método que filtre el arreglo). 
@@ -147,8 +147,25 @@ D) Error
   // d) Usa desestructuración para extraer los dos primeros elementos del inventarioEnMayusculas y guardarlos en variables llamadas primerItem y segundoItem.
 
   //write your code here
+
+  let inventario = ["hongo", "flor", "trampa", "estrella", "trampa", "pluma"];
+  .inventario = inventario.filter (trampa) = false
+  .inventario = inventario.push("super estrella")
+  .inventario = string.toUpperCase(0,1,2,3,4)
+
+  console.log(inventario);
+  
+
+
+
+
   
   
+  
+
+
+  
+
 
   // Pregunta 15:
   // Usando el mismo arreglo de inventario anterior (el original, no los modificados). 
