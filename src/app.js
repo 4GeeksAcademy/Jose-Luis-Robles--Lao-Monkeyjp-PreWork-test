@@ -149,9 +149,9 @@ D) Error
   //write your code here
 
   let inventario = ["hongo", "flor", "trampa", "estrella", "trampa", "pluma"];
-  .inventario = inventario.filter (trampa) = false
-  .inventario = inventario.push("super estrella")
-  .inventario = string.toUpperCase(0,1,2,3,4)
+  inventario.filter (trampa) = false
+  inventario.push("super estrella")
+  string.toUpperCase(0,1,2,3,4)
 
   console.log(inventario);
   
